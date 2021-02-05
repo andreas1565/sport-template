@@ -1,0 +1,801 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*-------header-----------------*/
+#burger {
+  width: 100%;
+  padding: 10px 20px;
+  text-align: right;
+  box-sizing: border-box;
+  color: #000;
+  font-size: 30px;
+  display: none;
+  padding-right: 15%;
+}
+
+nav ul {
+  display: flex;
+}
+nav ul li {
+  list-style: none;
+  margin-top: 20px;
+}
+nav ul li a {
+  color: #fff;
+  border-radius: 4px;
+  padding: 15px 50px;
+  text-decoration: none;
+  display: block;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #1eaf12;
+}
+#logo {
+  margin-right: auto;
+  margin-top: 20px;
+}
+/*-------header end-----------------*/
+
+/*-------herroimage-----------------*/
+.herroimage {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 700px;
+  position: relative;
+  overflow-y: hidden;
+}
+
+.container2 {
+  margin-top: 25vh;
+}
+.herroimage .container2 {
+  max-width: 1180px;
+  margin-left: 10%;
+}
+.herroimage .container2 h1 {
+  font-size: 42px;
+  margin-bottom: 2%;
+}
+
+.button {
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background-color: #1eaf12;
+  border-radius: 35px 35px 35px 35px;
+  padding: 14px 48px 14px 48px;
+  text-decoration: none;
+  color: #000;
+}
+/*-------herroimage end-----------------*/
+
+/*------- gethealthy-----------------*/
+.gethealthy {
+  margin-top: 5%;
+}
+.gethealthy div h2 {
+  margin-left: 5%;
+  margin-bottom: 2%;
+  font-size: 32px;
+}
+.gethealthy div p {
+  margin-bottom: 4%;
+  margin-left: 5%;
+}
+.gethealthy,
+.professional {
+  display: flex;
+}
+.gethealthy div {
+  width: 80%;
+}
+.down {
+  margin-left: 5%;
+}
+.professional i {
+  font-size: 2em;
+  color: #1eaf12;
+}
+.professional h3 {
+  margin-left: 2%;
+}
+.professional p {
+  margin-top: 2%;
+  margin-left: 2%;
+}
+.professional article {
+  width: 90%;
+}
+/*------- gethealthy end-----------------*/
+
+/*------- services-------*/
+.services {
+  background: #f7f7f7;
+  width: 100%;
+  min-height: 700px;
+}
+.servicestext {
+  padding-top: 100px;
+  text-align: center;
+  margin-bottom: 1%;
+  font-size: 32px;
+}
+.services i {
+  font-size: 2em;
+  position: relative;
+  display: block;
+  color: #1eaf12;
+  margin-bottom: 5%;
+}
+.span {
+  display: block;
+  width: 40px;
+  margin: 0 auto;
+  background-color: #0f0;
+  height: 0.5vh;
+  margin-bottom: 5%;
+}
+.grid {
+  display: grid;
+  display: -ms-grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+  padding-left: 5%;
+}
+.grid div p {
+  margin-top: 15%;
+}
+.grid div {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 30px 30px 30px 30px;
+  width: 80%;
+  height: 40vh;
+}
+.grid div:hover {
+  box-shadow: 0 0 10px hsla(0, 0%, 0%, 0.7);
+}
+/*------- outerprograms -------*/
+.outerprograms {
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10rem 0;
+  padding-left: 15%;
+  width: 100%;
+}
+
+.outerprograms h3 {
+  font-size: 2rem;
+}
+.outerprograms p {
+  margin-top: 2%;
+  margin-bottom: 1.25rem;
+  white-space: pre;
+}
+/*------- outerprograms end-------*/
+
+/*------- happy -------*/
+.happy {
+  min-height: 500px;
+}
+.happy h2 {
+  padding-top: 50px;
+  text-align: center;
+  margin-bottom: 1%;
+  font-size: 32px;
+}
+.happy i {
+  font-size: 2em;
+  color: #1eaf12;
+  margin: 2% 0% 2% 50%;
+}
+.happygrid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.happygrid div {
+  padding-left: 50px;
+  width: 90%;
+  height: 20vh;
+}
+.happygrid div p:first-child {
+  background: #f7f7f7;
+  padding: 20px 20px;
+  font-size: 16px;
+  line-height: 26px;
+}
+.happy figure {
+  display: flex;
+  margin: 5% 0% 0% 0%;
+}
+.happy figcaption {
+  margin: 5% 0% 0% 0%;
+}
+/*------- happy end -------*/
+
+/*-------Dietprogram-------*/
+.dietprogram {
+  background: #f7f7f7;
+  min-height: 500px;
+  width: 100%;
+}
+.dietprogramflex {
+  display: flex;
+}
+.dietprogram h2 {
+  padding-top: 50px;
+  margin-left: 3%;
+  margin-bottom: 1%;
+  font-size: 32px;
+}
+.dietprogram p {
+  margin: 0% 0% 0% 2%;
+}
+#text {
+  white-space: pre;
+  line-height: 20px;
+  margin-left: -0.4%;
+}
+.dietprogram i {
+  color: #1eaf12;
+}
+.dietprogram .box {
+  width: 50%;
+}
+.dietprogram figure {
+  width: 50%;
+  margin-bottom: 2%;
+}
+.dietprogram .box div {
+  background: #fff;
+  padding: 10px 10px;
+  font-size: 16px;
+  line-height: 26px;
+  line-height: 26px;
+  width: 60%;
+  margin: 2% 0% 2% 5%;
+  cursor: pointer;
+}
+.dietprogram .box div article {
+  display: none;
+}
+.dietprogram .box article p {
+  margin: 2% 0% 0% 2%;
+}
+/*-------Dietprogram end-------*/
+
+/*-------news-------*/
+.nes {
+  padding: 80px 0px 80px 0px;
+  min-height: 500px;
+}
+.news h2 {
+  padding-top: 100px;
+  text-align: center;
+  margin-bottom: 1%;
+  font-size: 32px;
+}
+.news .newsgrid {
+  display: grid;
+  display: -ms-grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  padding-left: 50px;
+}
+.date {
+  margin-top: 0%;
+  padding-top: 20px;
+  color: #1eaf12;
+  padding-bottom: 10px;
+}
+.news figcaption {
+  background: #f7f7f7;
+  width: 360px;
+  height: 100px;
+  text-align: center;
+  margin-bottom: 5%;
+}
+/*-------news end-------*/
+/*------- getintouch -------*/
+.getintouch {
+  width: 100%;
+  display: flex;
+}
+.getintouch h2 {
+  margin-top: 50px;
+  margin-left: 5%;
+}
+.getintouch div:first-child {
+  width: 80%;
+  margin-left: 2%;
+}
+.getintouch div:nth-child(2) {
+  background: #f7f7f7;
+  width: 100%;
+  margin-bottom: 2%;
+}
+.getintouch form label {
+  display: none;
+}
+.getintouch form fieldset {
+  border: none;
+}
+.getintouch input {
+  width: 80%;
+  border: none;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 2%;
+  padding: 15px 20px;
+  color: #666;
+  font-size: 15px;
+}
+.getintouch form div {
+  display: flex;
+  width: 100%;
+}
+.getintouch form #email {
+  width: 90%;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  margin-left: 5%;
+}
+.getintouch form #phone {
+  width: 90%;
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
+.getintouch textarea {
+  width: 80%;
+  height: 15vh;
+  resize: none;
+  padding: 15px 20px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 2%;
+  border: none;
+}
+.getintouch form button {
+  margin-left: 2%;
+  border: none;
+  border-radius: 30px;
+  padding: 15px 32px;
+  background-color: #1eaf12;
+  margin-bottom: 2%;
+}
+/*------- getintouch end-------*/
+/*------- footer -------*/
+footer .grid-footer ul li:first-child {
+  font-size: 1.2rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+.lastlist li {
+  display: inline-block;
+  margin-left: 5%;
+}
+.lastlist li a {
+  font-size: 2em;
+  text-decoration: none;
+}
+.fa-facebook {
+  color: #00f;
+}
+.fa-twitter {
+  color: lightblue;
+}
+.fa-instagram {
+  color: pink;
+}
+.fa-fa-linkedin {
+  color: darkblue;
+}
+.container {
+  max-width: 1180px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 3rem;
+}
+.runtext {
+  line-height: 20px;
+}
+footer .grid-footer {
+  display: -ms-grid;
+  display: grid;
+  grid-row-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+  padding: 2rem;
+  text-align: left;
+  font-size: 14px;
+}
+footer .grid-footer ul {
+  list-style: none;
+}
+/*------- footer  end-------*/
+
+/*------- blog -------*/
+.myblog {
+  display: flex;
+}
+.myblogcontainer {
+  padding: 100px 0;
+  width: 50%;
+  padding-left: 5%;
+}
+.myblogcontainer h2 {
+  color: #191919;
+  margin: 20px 0 25px;
+  font-size: 36px;
+  font-weight: 500;
+}
+aside {
+  align-self: flex-start;
+  padding: 30px;
+  border: 1px solid #ebebeb;
+  max-width: 33.333333%;
+  margin-top: 6.9%;
+  margin-left: 5%;
+}
+aside form input {
+  background-color: #f7f7f7;
+  vertical-align: top;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  margin-right: -5px;
+  width: 100%;
+  border: 1px solid #ebebeb;
+  border-radius: 0;
+  padding: 15px 20px;
+  font-size: 15px;
+}
+aside article h3 {
+  color: #191919;
+  margin: 5% 0 30px;
+}
+/*------- blog end -------*/
+/*------- about os -------*/
+.about {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  min-height: 500px;
+  background: #f7f7f7;
+}
+.about article {
+  width: 60%;
+  padding-left: 5%;
+}
+.about h2 {
+  margin-left: 9%;
+}
+.about p {
+  line-height: 25px;
+  white-space: pre;
+}
+.about figure {
+  width: 40%;
+  margin-left: 5%;
+}
+.about img {
+  max-width: 100%;
+}
+.vidoecontainer {
+  padding-top: 100px;
+  padding-left: 13%;
+  min-height: 500px;
+}
+.vidoecontainer h2 {
+  margin-bottom: 2%;
+}
+.extrainfo {
+  padding: 100px;
+  min-height: 500px;
+  background: #f7f7f7;
+}
+.extrainfo div {
+  display: grid;
+  display: -ms-grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr;
+  grid-gap: 100px;
+}
+.extrainfo div article p {
+  line-height: 25px;
+}
+/*------- about os  end -------*/
+/*------- contactdetails -------*/
+.contactdetails {
+  min-height: 500px;
+}
+.contactdetails h2 {
+  text-align: center;
+  padding-bottom: 2%;
+}
+.details p a {
+  text-decoration: none;
+  color: #000;
+}
+.contactdetails .details .span {
+  width: 1em;
+  height: 1em;
+  background: #f7f7f7;
+  text-align: left;
+}
+.contactdetails .details i {
+  color: #1eaf12;
+  display: block;
+  margin-left: 10%;
+}
+.contactdetails .details {
+  padding-left: 15%;
+  display: grid;
+  display: -ms-grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr;
+}
+.contactdetails .details p {
+  margin-top: 5%;
+}
+/*------- contactdetails end -------*/
+/*------- contactosbigforms -------*/
+.contactosbigform {
+  background: #f7f7f7;
+}
+
+.contactosbigform h2 {
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.contactosbigform form {
+  margin-left: 10%;
+  width: 80%;
+}
+.contactosbigform form div {
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr;
+}
+.contactosbigform form fieldset {
+  width: 100%;
+  border: none;
+  display: block;
+}
+.contactosbigform label {
+  margin-top: 2%;
+  display: block;
+  margin-left: 2%;
+}
+
+.contactosbigform form input {
+  width: 80%;
+  border: none;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-bottom: 5%;
+  margin-left: 2%;
+  padding: 10px 10px;
+  color: #666;
+  font-size: 15px;
+}
+.contactosbigform select {
+  border: none;
+  margin-left: 2%;
+  width: 80%;
+}
+.contactosbigform textarea {
+  width: 80%;
+  height: 15vh;
+  resize: none;
+  padding: 15px 20px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 2%;
+  border: none;
+}
+.contactosbigform button {
+  margin-left: 2%;
+  border: none;
+  border-radius: 30px;
+  padding: 15px 32px;
+  background-color: #1eaf12;
+  margin-bottom: 2%;
+}
+@media screen and (max-width: 800px) {
+  /* fropage */
+  .dietprogram img {
+    width: 90%;
+  }
+  .news .newsgrid {
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-columns: 1fr 1fr;
+    padding-left: 0px;
+  }
+  .getintouch {
+    display: block;
+  }
+  .getintouch div:first-child {
+    margin-left: 0%;
+    width: 100%;
+  }
+  .getintouch iframe {
+    width: 780px;
+  }
+  /* fropage */
+  .about p {
+    white-space: normal;
+  }
+  .about p:nth-child(3) {
+    margin-top: 2%;
+  }
+}
+@media screen and (max-width: 500px) {
+  #logo {
+    display: block;
+    margin-left: 40%;
+  }
+  .responsivemenu {
+    width: 100%;
+    display: none;
+  }
+
+  .responsivemenu div li {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+  .responsivemenu div ul {
+    display: block;
+  }
+  .active {
+    display: block;
+  }
+  #burger {
+    display: block;
+  }
+  /* fropage*/
+  .herroimage {
+    min-height: 500px;
+  }
+  .herroimage .container2 {
+    margin-top: 5%;
+  }
+  .gethealthy {
+    display: block;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    -ms-grid-columns: 1fr;
+    margin-bottom: 2%;
+  }
+  .grid div {
+    margin-top: 5%;
+  }
+  .news .newsgrid {
+    grid-template-columns: 1fr;
+    -ms-grid-columns: 1fr;
+    padding-left: 10%;
+  }
+  .happygrid {
+    grid-template-columns: 1fr;
+    -ms-grid-columns: 1fr;
+    min-height: 800px;
+  }
+  .professional {
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+  #text {
+    white-space: normal;
+    margin-left: 2%;
+  }
+  .dietprogramflex {
+    display: block;
+  }
+  .dietprogram .box div {
+    margin-top: 10%;
+    margin-left: 20%;
+    width: 100%;
+  }
+  .dietprogram img {
+    margin-top: 2%;
+    margin-left: 20%;
+  }
+  .outerprograms p {
+    white-space: normal;
+  }
+
+  .getintouch iframe {
+    width: 425px;
+  }
+  /* fropage*/
+  /* blog*/
+  .myblog {
+    display: block;
+  }
+  .myblogcontainer {
+    width: 100%;
+    padding-left: 0%;
+  }
+  .myblog aside {
+    max-width: 100%;
+    margin-left: 0%;
+  }
+  /* blog*/
+  /* about*/
+  .about {
+    display: block;
+    padding: 0px;
+  }
+  .about figure {
+    width: 100%;
+  }
+  .extrainfo div {
+    grid-template-columns: 1fr;
+    -ms-grid-columns: 1fr 1fr;
+  }
+  .contactdetails .details {
+    grid-template-columns: 1fr;
+    -ms-grid-columns: 1fr 1fr;
+    padding-left: 40%;
+  }
+  .contactdetails .details div {
+    margin-top: 5%;
+  }
+  .contactosbigform form div {
+    grid-template-columns: 1fr;
+    -ms-grid-columns: 1fr 1fr;
+  }
+  footer .container {
+    padding: 0 1rem;
+  }
+  footer .grid-footer {
+    grid-gap: 40px;
+    padding: 0rem;
+  }
+}
+@media screen and (max-width: 380px) {
+  .herroimage .container2 {
+    margin-left: 2%;
+  }
+  .news .newsgrid {
+    padding-left: 2%;
+  }
+  .getintouch iframe {
+    width: 375px;
+  }
+  footer .grid-footer {
+    grid-gap: 30px;
+    padding: 0rem;
+  }
+}
+@media screen and (max-width: 330px) {
+  /*  .news img{
+            width: 100%;
+        } */
+  .news .newsgrid {
+    padding-left: 0%;
+  }
+  .news figcaption {
+    width: 300px;
+  }
+  .getintouch iframe {
+    width: 320px;
+  }
+  footer .grid-footer {
+    grid-gap: 30px;
+    padding: 0rem;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-columns: 1fr 1fr;
+  }
+}

@@ -1,0 +1,2 @@
+document.addEventListener("DOMContentLoaded",(function(){document.querySelector("#burger").addEventListener("click",(function(e){e.preventDefault(),document.querySelector(".responsivemenu").classList.toggle("active")}))}));
+//# sourceMappingURL=menu.js.map

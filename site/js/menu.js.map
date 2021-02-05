@@ -1,0 +1,1 @@
+{"version":3,"sources":["menu.js"],"names":["document","addEventListener","querySelector","event","preventDefault","classList","toggle"],"mappings":"AAAAA,SAASC,iBAAiB,oBAAoB,WAC1BD,SACfE,cAAc,WACdD,iBAAiB,SAEpB,SAA0BE,GAExBA,EAAMC,iBAGcJ,SAASE,cAAc,mBAE7BG,UAAUC,OAAO","file":"menu.js"}
